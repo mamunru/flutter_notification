@@ -1,45 +1,187 @@
 {
   "project_info": {
-    "project_number": "183943939427",
-    "project_id": "push-c7d8c",
-    "storage_bucket": "push-c7d8c.appspot.com"
+    "project_number": "617498101458",
+    "project_id": "test-3aecf",
+    "storage_bucket": "test-3aecf.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:183943939427:android:5d75f117d0b4d12b22bf56",
+        "mobilesdk_app_id": "1:617498101458:android:b3313e6e4fa6040730cf0b",
         "android_client_info": {
-          "package_name": "com.example.notification01"
+          "package_name": "com.dropdownltd.notification_fcm"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "617498101458-eguev975janihourimon6aishrup29vk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyCBWsbjX-_hAOJvLJpos07NRzcfYIEdJoI"
+          "current_key": "AIzaSyCnnEOby_hL0i2vGX8gW_JO2k8BKw4VJ5A"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617498101458-eguev975janihourimon6aishrup29vk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "617498101458-0a8daoi1u9ductd46ibl9vfjrt9c389g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mamun.herotask"
+              }
+            }
+          ]
         }
       }
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:183943939427:android:c5ff45448b55dd1e22bf56",
+        "mobilesdk_app_id": "1:617498101458:android:97756ca954d1cea030cf0b",
         "android_client_info": {
           "package_name": "com.example.push"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "617498101458-eguev975janihourimon6aishrup29vk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyCBWsbjX-_hAOJvLJpos07NRzcfYIEdJoI"
+          "current_key": "AIzaSyCnnEOby_hL0i2vGX8gW_JO2k8BKw4VJ5A"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617498101458-eguev975janihourimon6aishrup29vk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "617498101458-0a8daoi1u9ductd46ibl9vfjrt9c389g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mamun.herotask"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617498101458:android:0295faae75a345f730cf0b",
+        "android_client_info": {
+          "package_name": "com.mamun.herotask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617498101458-eguev975janihourimon6aishrup29vk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnnEOby_hL0i2vGX8gW_JO2k8BKw4VJ5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617498101458-eguev975janihourimon6aishrup29vk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "617498101458-0a8daoi1u9ductd46ibl9vfjrt9c389g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mamun.herotask"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617498101458:android:7a62e22c6cfbabf030cf0b",
+        "android_client_info": {
+          "package_name": "com.mamun.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617498101458-eguev975janihourimon6aishrup29vk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnnEOby_hL0i2vGX8gW_JO2k8BKw4VJ5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617498101458-eguev975janihourimon6aishrup29vk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "617498101458-0a8daoi1u9ductd46ibl9vfjrt9c389g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mamun.herotask"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617498101458:android:cf24beca8f004cf330cf0b",
+        "android_client_info": {
+          "package_name": "com.poras.dfdf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617498101458-eguev975janihourimon6aishrup29vk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnnEOby_hL0i2vGX8gW_JO2k8BKw4VJ5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617498101458-eguev975janihourimon6aishrup29vk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "617498101458-0a8daoi1u9ductd46ibl9vfjrt9c389g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mamun.herotask"
+              }
+            }
+          ]
         }
       }
     }

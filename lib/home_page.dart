@@ -1,5 +1,6 @@
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
+import 'package:push/servicer/local_notifications.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -14,23 +15,14 @@ class _HomePageState extends State<HomePage> {
   void initState() {
     // TODO: implement initState
     super.initState();
+    //LocalNotificationService();
 
-    //Terminated State
-    FirebaseMessaging.instance.getInitialMessage().then((event){
-      if (event != null) {
-        setState(() {
-        notification = "${event.notification!.title} ${event.notification!.body} I am comming from Terminated state";
-      }); 
-      }
-    });
+     FirebaseMessaging.instance.getInitialMessage()
+    //  FirebaseMessaging.onMessage.listen((event) { 
+    //   print(event.data);
+    //  });
 
-    //Forground State
-    FirebaseMessaging.onMessage.listen((event)
-    {
-      setState(() {
-        notification = "${event.notification!.title} ${event.notification!.body} I am comming from forground";
-      });
-    }); 
+    //FirebaseMessaging.onMessage.listen(LocalNotificationService().showFlutterNotification);
 
     //Background State
     FirebaseMessaging.onMessageOpenedApp.listen((event) { 
