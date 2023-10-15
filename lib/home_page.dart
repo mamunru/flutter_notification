@@ -17,7 +17,7 @@ class _HomePageState extends State<HomePage> {
     super.initState();
     //LocalNotificationService();
 
-     FirebaseMessaging.instance.getInitialMessage()
+     FirebaseMessaging.instance.getInitialMessage();
     //  FirebaseMessaging.onMessage.listen((event) { 
     //   print(event.data);
     //  });
